@@ -1,0 +1,19 @@
+[package]
+name = "bevy"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = { git = "https://github.com/bevyengine/bevy" }
+
+rand = "*"
+
+rapier3d = "*"
+
+parry2d = "*"
+#the position, the velocity, stuff like that can be components
+#or they can be a part of the world and managed like that 
+
+#bevy-orbit-controls = "*"
